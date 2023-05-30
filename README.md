@@ -25,8 +25,9 @@ Pré requisitos:
 #### Credenciais AWS
 
 - Criar usuário: AWS Management Console -> IAM Dashboard -> Create New User -> <nome do usuário> -> Permissions "Administrator Access" -> Programmatic Access -> Dowload Keys
-- No terminal: ```$ aws configure``` -> colar as credenciais geradas anteriormente
-- 
+- Criar um diretorio para o projeto-serverless
+- No terminal: ```$ aws configure``` -> colar as credenciais geradas anteriormente na AWS
+
 #### Configurar o framework Serverless
 ```$ npm i -g serverless```
 
